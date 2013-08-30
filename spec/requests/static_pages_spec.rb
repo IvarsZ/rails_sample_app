@@ -43,9 +43,9 @@ describe "Static pages" do
 
   describe "Contact page" do
     
-    it "should have the content 'IZubkans@gmail.com'" do
+    it "should have the content 'contact page'" do
       visit '/static_pages/contact'
-      expect(page).to have_content("IZubkans@gmail.com")
+      expect(page).to have_content("contact page")
     end
 
     it "should have the title 'Contact'" do
