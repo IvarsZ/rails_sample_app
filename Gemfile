@@ -6,10 +6,8 @@ gem 'rails', '4.0.0'
 gem 'pg'
 
 gem 'zip'
-
-group :development, :test do
-  gem 'rspec-rails', '2.13.1'
-end
+gem 'rspec-rails'
+gem 'guard-rspec'
 
 group :test do
   gem 'selenium-webdriver', '2.0.0'
